@@ -21,13 +21,13 @@
 # inherit from msm8916-common
 include device/huawei/msm8916-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/huawei/cherry
+DEVICE_PATH := device/huawei/hwt1a21l
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := c8817d,g620s,C8817D,C8817E,G621-TL00,G620S-UL00,G620S-L01,Che1-CL20,Che1-L04
+TARGET_OTA_ASSERT_DEVICE := T1-A21W,T1-A21L,T1-A23L
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 
 # inherit from the proprietary version
-include vendor/huawei/cherry/BoardConfigVendor.mk
+include vendor/huawei/hwt1a21l/BoardConfigVendor.mk

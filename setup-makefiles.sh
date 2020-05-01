@@ -18,7 +18,7 @@
 set -e
 
 # Required!
-export DEVICE=cherry
+export DEVICE=hwt1a21l
 export DEVICE_COMMON=msm8916-common
 export VENDOR=huawei
 
